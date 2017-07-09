@@ -4,7 +4,7 @@
 
 ### Clonando o Repositório
 
-`git clone ?`
+`git clone https://github.com/Ricardolv/meat-app.git`
 
 ### Instalando as Dependências
 
