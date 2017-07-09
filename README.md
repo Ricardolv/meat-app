@@ -24,9 +24,7 @@
 
 `json-server db.json`
 
-## Goodies
-
-Expressões regulares usadas na validação de formulários
+## Expressões regulares usadas na validação de formulários
 
 ### Email Regex
 
