@@ -1,4 +1,4 @@
-# Meat - Angular App
+# MeatApp - Angular
 
 ## 1. Passos para começar
 
