@@ -17,7 +17,7 @@ import { RadioOption } from './radio-option.model';
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,
-      //Declarando um referencia no componente
+      //Declarando uma referencia no componente
       useExisting: forwardRef(() => RadioComponent),
       multi: true
     }
