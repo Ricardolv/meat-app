@@ -1,3 +1,4 @@
+import { handleAuthentication } from './auth';
 import * as jsonServer from 'json-server'
 import { Express } from 'express'
 
@@ -14,7 +15,8 @@ server.use(middlewares)
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser)
 
-//
+// middleware for login
+server.post('/login', handleAuthentication)
 
 // Use default server
 server.use(router)
