@@ -1,4 +1,5 @@
-import {NgModule, ModuleWithProviders} from '@angular/core'
+import { LoginService } from './../security/login/login.service';
+import { NgModule, ModuleWithProviders } from '@angular/core'
 import {CommonModule} from '@angular/common'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
@@ -25,7 +26,9 @@ export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: SharedModule,
-      providers: [OrderService, RestaurantsService, ShoppingCartService, NotificationService]
+      providers: [OrderService, RestaurantsService,
+                  ShoppingCartService, NotificationService,
+                  LoginService]
     }
   }
 

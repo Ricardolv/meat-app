@@ -1,5 +1,7 @@
 "use strict";
 exports.__esModule = true;
+var api_config_1 = require("./api-config");
+var jwt = require("jsonwebtoken");
 exports.handleAuthorization = function (req, resp, next) {
     var token = extratctToken(req);
     if (!token) {
