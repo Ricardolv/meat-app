@@ -33,3 +33,5 @@
 ### Number Regex
 
 `/^[0-9]*$/`
+
+### Token JWT
