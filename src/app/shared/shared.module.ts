@@ -1,3 +1,4 @@
+import { LoggedInGuard } from './../security/loggedin.guard';
 import { LoginService } from './../security/login/login.service';
 import { NgModule, ModuleWithProviders } from '@angular/core'
 import {CommonModule} from '@angular/common'
@@ -28,7 +29,7 @@ export class SharedModule {
       ngModule: SharedModule,
       providers: [OrderService, RestaurantsService,
                   ShoppingCartService, NotificationService,
-                  LoginService]
+                  LoginService, LoggedInGuard]
     }
   }
 
