@@ -30,14 +30,15 @@ import {NotificationService} from '../notificaton.service'
     ])
   ]
 })
+
 @Injectable()
 export class SnackbarComponent implements OnInit {
 
-  message: string = "Hello mano !!!"
+  message: string
 
   snackVisibility: string = 'hidden'
 
-  constructor(private notificationService: NotificationService){}
+  constructor(private notificationService: NotificationService) {}
 
   ngOnInit() {
     this.notificationService.notifier.do(message => {
