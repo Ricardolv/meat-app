@@ -5,7 +5,7 @@ import { LoginService } from './login/login.service';
 @Injectable()
 export class LoggedInGuard implements CanLoad, CanActivate {
 
-  constructor(private loginService: LoginService){}
+  constructor(private loginService: LoginService) {}
 
   checkAuthentication(path: string): boolean {
     const loggedIn = this.loginService.isLoggedIn()
