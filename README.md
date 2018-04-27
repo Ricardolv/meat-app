@@ -12,7 +12,7 @@
 
 ### Inicializando o Servidor
 
-`ng serve` ou `npm start`
+`ng serve` ou `npm start` 
 
 ## 2. Iniciando o Backend
 
@@ -35,3 +35,6 @@
 `/^[0-9]*$/`
 
 ### Token JWT
+
+### build de produção comando --extract-css=false, devido a um problema de css, o --extract-css controla a onde o css vai ser colocado, por padrao o --extract-css ele é true vai gravar em umm arquivo de acesso global, quando essa opcao é false ele vai garavar em um arquivo de javascript.
+`ng build --prod --extract-css=false`
