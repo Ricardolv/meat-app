@@ -36,5 +36,7 @@
 
 ### Token JWT
 
-### build de produção comando --extract-css=false, devido a um problema de css, o --extract-css controla a onde o css vai ser colocado, por padrao o --extract-css ele é true vai gravar em umm arquivo de acesso global, quando essa opcao é false ele vai garavar em um arquivo de javascript.
+### Build de produção comando 
 `ng build --prod --extract-css=false`
+
+--extract-css=false, devido a um problema de css, o --extract-css controla a onde o css vai ser colocado, por padrao o --extract-css ele é true vai gravar em um arquivo de acesso global, quando essa opcao é false ele vai garavar em um arquivo de javascript.
